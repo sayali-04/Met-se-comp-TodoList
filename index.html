@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <section class="background-img">
+        <button class="Add">Add todo</button>
+        <p class ="title">TODO</p>
+        <section class="main">
+            <section id="blog-list"></section>
+               <div id="blocktoDelete">
+            <div class="sec1"><h1>Complete html learning  <i class="fa fa-trash-o" id="p1" aria-hidden="true" ></i></h1>
+            <p>Learn all html semantic tags, learn new article tag</p></div>
+            <hr>
+            <div class="sec2"><h1>Learn map() method <i class="fa fa-trash-o"true id="p2"></i></h1>
+            <p>Learn how to implement map method in javascript</p></div>
+            <hr>
+            <div class="sec3"><h1>Take notes<i class="fa fa-trash-o" aria-hidden="true" id="p3"></i></h1>
+            <p>Take notes regarding css fundamentals</p></div>
+            <hr>
+            <div class="sec4"><h1>Water plants <i class="fa fa-trash-o" aria-hidden="true" id="p4"></i></h1></h1>
+            <p>water all plants in garden</p></div>
+            <hr> 
+        </section>
+        <section class="pop-registration d-none">
+            <section class="user-registration">
+              <form action="#">
+                <div>
+                  <label for="">Todo Name</label>
+                </div>
+                <div>
+                  <input type="text" id="fullName"/>
+                </div>
+                <div>
+                  <label for="">Todo Description</label>
+                </div>
+                <div>
+                    <textarea
+                      id="description"
+                      type="text"
+                      class="input"
+                      placeholder="description"
+                      rows="7">
+                      </textarea>
+                  </div>
+                  <div>
+                  <label for="">Priority</label>
+                  </div>
+                  <div>
+                  <select name="Priority" id="p1">
+                    <option value="select">--select--</option>
+                    <option value="#Blue">Blue</option>
+                    <option value="#blue">Red</option>
+                    <option value="#blue">green</option>
+                  </select>
+                </div>
+                  <button type="button" id="save" class="btn btn-success">
+                    Save
+                  </button>
+                  <button type="button" class="cancel btn btn-danger">Cancel</button>
+              </form>
+            </section>
+          </section>
+    <script src="./Js/main.js"></script>
+</body>
+</html>
